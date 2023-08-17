@@ -15,3 +15,12 @@ curso de ingenieria de datos por carloslme
     (el segundo venv es el nombre de la carpeta que contiene al ambiente virtual)
 4. para activar el ambiente virtual ejecutar el archivo `Activate.ps1`
 opcionalmente instalar la lista de requirements
+
+## Instrucciones para generar un archivo txt con los requerimientos del ambiente virtual
+
+1. Ejecutar el comando: 
+
+```python
+pip freeze > .\your_path\requirements.txt
+```
+en donde `your_path` se especifica la direccion en donde se guardara el archivo de requerimientos
